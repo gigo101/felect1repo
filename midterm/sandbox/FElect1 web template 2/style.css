@@ -1,0 +1,130 @@
+
+	body,
+	html {
+		margin: 0px;
+		padding:0;
+		color:#000;
+		background:#a7a09a;
+	}
+	#wrap {
+		width:1024px;
+		margin:0 auto;
+		background:#99c;
+	}
+	#header {
+		height:200px;
+    	padding:5px 10px;
+		background-image:url("header.jpg");
+		background-repeat: repeat;
+	}
+	
+	#header h1.sitetitle{
+		color:#FFFFFF;
+		font-family: "sans serif";
+
+	}
+	
+	#header h1{
+		margin-left:15px;
+		text-align: left;
+		font-size:55px;
+	}
+	
+	#header .web{
+
+		margin-left:500px;
+		height:200px;
+		background-image: url("web-development-banner.png");
+		background-repeat: no-repeat;
+	}
+	
+	.felect{
+		
+		float:left;
+	}
+	#header p{
+		font-weight: bolder;
+		margin-left:15px;
+		margin-top:-40px;
+		color:#FFFFFF;
+		font-size:30px;
+		font-family: "font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;";
+	}
+	
+	.search{
+	margin-right:45px;
+	float: right;
+	font-size: 16px;
+	font-weight: lighter;
+	}
+
+	.searchbox{
+	border-radius: 5px;
+	}
+
+
+	#nav {
+		height:25px;
+		padding:5px 10px;
+		background-image: url("menu_bg.jpg");
+		background-repeat: repeat;
+	}
+	#nav ul {
+		margin:0;
+		padding:0;	
+	}
+	#nav li {
+		display:inline;
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	
+
+	
+	#nav li a:link{
+		color: white;
+		text-decoration: none;
+	}
+	
+	#nav li a:visited{
+		color: white;
+	}
+	
+	
+	#main {
+	
+		float:left;
+		width:750px;
+		padding:10px;
+		background:#9c9;
+	}
+	h2 {
+		margin:0 0 1em;
+	}
+	#sidebar {
+		float:right;
+		width:230px;
+		padding:10px;
+		background:#99c;
+	}
+	
+	#sidebar img{
+		
+		margin-left: -10px;
+	}
+	#footer {
+		height:50px;
+		text-align:center;
+		font-style:italic;
+		clear:both;
+		padding:5px 10px;
+		background:#cc9;
+	}
+	#footer p {
+		margin:5px;
+    }
+	* html #footer {
+		height:4px;
+	}
+	

@@ -1,0 +1,43 @@
+
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {   
+  display: block;   
+}
+
+
+.Header{
+
+	background-color: #c708e0;
+	text-align: center;
+	color: ##33CC99;
+
+
+}
+
+.Header h1{
+	margin: 0px;
+
+
+}
+
+.Header .Teaser{
+	margin: 0px;
+	font-style: italic;
+	font-size: x-large;
+}
+
+.Header .Byline{
+	margin: 0px;
+
+}
+
+.Content{
+
+	margin: 30px;
+	font-family: Georgia;
+}
+
+.Content .LeadIn{
+
+	font-weight: bold;
+	font-size: x-large;
+}
